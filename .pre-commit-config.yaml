@@ -1,0 +1,7 @@
+-   repo: git://github.com/ogrubes/pre-commit-check-blacklist
+    sha: master
+    hooks:
+    -   id: check-blacklist
+        args:
+          - --blacklist test.txt
+          - --blacklist test2.txt

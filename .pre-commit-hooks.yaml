@@ -1,0 +1,6 @@
+-   id: check-blacklist
+    name: check-blacklist
+    description: Checks if any of the modified files are in your blacklist
+    entry: check-blacklist
+    language: python
+    args: [--blacklist, --whitelist]
